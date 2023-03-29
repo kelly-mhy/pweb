@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Site de notícias</title>
+	<style type="text/css" media="screen">
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			display: flex;
+			min-height: 100vh;
+			flex-direction: column;
+			margin: 0;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		}
+
+		#main {
+			display: flex;
+			flex: 1;
+		}
+
+		#main>article {
+			flex: 1;
+		}
+
+		#main>nav,
+		#main>aside {
+			flex: 5 5 50vw;
+			background: #b560dd;
+			font-size: x-small;
+			text-align: center;
+		}
+
+		#main>nav {
+			flex: 5 5 50vw;
+			background: #b560dd;
+			font-size: medium;
+			text-align: left;
+		}
+
+		#main>nav {
+			order: -1;
+			background: #b560dd;
+		}
+
+		footer {
+			background: #DFDCE3;
+			height: 20vh;
+
+		}
+
+		header {
+			background: #7d8574;
+			height: 20vh;
+		}
+
+		#F7B7E33 header,
+		footer,
+		article,
+		nav,
+		aside {
+			padding: 1em;
+		}
+
+		.container {
+			display: flex;
+			gap: 20px;
+			/* espacamento em os cards */
+			align-items: center;
+			width: 80%;
+			margin: 0 auto;
+			color: rgb(12, 12, 12);
+		}
+
+		.card {
+			flex-basis: calc(100% / 3 - 20px);
+			background-color: #887de6;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(30, 15, 169, 0.3);
+			height: 800px;
+		}
+
+		.card h2 {
+			margin-top: 0;
+		}
+
+		.card p {
+			margin: 10px 0;
+		}
+	</style>
+</head>
+
+
+
+<body>
+	<header>
+		<h1>FATEC News</h1>
+	</header>
+
+	<div id="main">
+		<div class="container">
+
+			<div class="card">
+				<article>
+					<br>
+					<h2>Esportes</h2>
+					<p><i>Sorteio da Libertadores </i></p>
+					<br>
+					<p>A Conmebol realizou na noite desta segunda-feira, em Luque, no Paraguai, o sorteio que definiu os
+						grupos da Libertadores 2023. O Brasil terá sete times nesta fase: Athletico-PR, Atlético-MG,
+						Corinthians, Flamengo, Fluminense, Internacional e Palmeiras. </p>
+				</article>
+			</div>
+
+			<div class="card">
+				<br>
+				<article>
+					<h2>Política </h2>
+					<p> <i>Câmara vive impasse com o Congresso em torno do modo como devem tramitar as medidas
+							provisórias </i></p>
+					<br>
+					<p>O presidente da Câmara, Arthur Lira (PP-AL), defendeu nesta segunda-feira (27) que as comissões
+						mistas destinadas a analisar medidas provisórias tenham mais deputados em sua composição e
+						tenham
+						um prazo para fazer a análise. Caso o Senado não aceite essa sugestão, Lira cita uma alternativa
+						excepcional, sugerida pelo governo, para destravar a tramitação de MPs. </p>
+				</article>
+			</div>
+
+			<div class="card">
+				<br>
+				<article>
+					<h2>Economia</h2>
+					<p><i>Crédito mais caro cresce no Brasil </i> </p>
+					<br>
+					<p> Linhas de crédito consideradas "ruins" e "caras" foram as que mais cresceram em janeiro deste
+						ano
+						em comparação ao mesmo período do ano passado. Os dados são do relatório de acompanhamento
+						fiscal da
+						Instituição Fiscal Independente (IFI), publicado em 15 de março.</p>
+					<p>
+						Tratam-se do cheque especial e do cartão de crédito, que têm as taxas de juros mais altas do
+						mercado.
+						Quem atrasa o cartão de crédito, por exemplo, pode pagar 182% ao ano (se parcelar o pagamento)
+						ou 411%
+						ao ano (se entrar no rotativo).
+					</p>
+				</article>
+			</div>
+		</div>
+
+		<nav>
+			<h3> Veja também </h3>
+			<a
+				href="https://www.msn.com/pt-br/entretenimento?ocid=hpmsn&cvid=321b1a3383254bcf9818a7a50c3a4180&ei=17">Entretenimento</a>
+			<br>
+			<a
+				href="https://www.msn.com/pt-br/esportes?ocid=hpmsn&cvid=415489be635a48d4bd54ae93fb85396e&ei=10">Esportes</a>
+			<br>
+			<a href="https://www.msn.com/pt-br/estilo-de-vida?ocid=hpmsn&cvid=09d11e5ae9ed4411a184dd3d8c267ff8&ei=10">Estilo
+				de vida</a>
+			<br>
+			<a
+				href="https://www.msn.com/pt-br/estilo-de-vida/horoscopo?ocid=hpmsn&cvid=397ab9a62efa4e0a86968d21d477e3d0&ei=10">Horóscopo</a>
+			<br>
+			<a
+				href="https://www.msn.com/pt-br/dinheiro?ocid=hpmsn&cvid=ca0e56a95d6b467283463017d0be89b7&ei=10">Dinheiro</a>
+			<br>
+			<a
+				href="https://www.msn.com/pt-br/receitasebebidas?ocid=hpmsn&cvid=03b21139ad4b4d9a84e15022d261c75c&ei=9">Receitas</a>
+			<br>
+			<a href="https://www.msn.com/pt-br/carros?ocid=hpmsn&cvid=e5fc893c21d94b57b59361ec242a4ddf&ei=10">Carro</a>
+			<br>
+			<a href="https://www.msn.com/pt-br/tv?ocid=hpmsn&cvid=2e7d8409f493497a90939e94b528edac&ei=10">TV</a>
+			<br>
+			<a href="0EstruturaBasica.html">Tempo</a>
+		</nav>
+
+		<aside>
+			<div class="direita">
+				<div class="item_direita"> <img src="http://images3.memedroid.com/images/UPLOADED264/5cad31b587451.jpeg"
+						alt="Publicidade" title="Publicidade" width="150" height="180"></div>
+				<p>O importante é manter a calma</p>
+				<p>Rivotril: o medicamento da cabeceira do estudante de ADS</p>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="item_direita"> <img src="https://m.media-amazon.com/images/I/41dFkWRHwnL._SY346_.jpg"
+					alt="Publicidade2" title="Publicidade2" width="150" height="200"></div>
+			<a href="https://www.amazon.com.br/COMO-GANHAR-DINHEIRO-COM-CHATGPT-ebook/dp/B0BTMVH4HW"> Adquira seu
+				exemplar </a>
+	</div>
+	</aside>
+	</div>
+	<footer>Todos os direitos reservados</footer>
+</body>
