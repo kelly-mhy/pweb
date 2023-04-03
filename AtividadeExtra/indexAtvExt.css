@@ -1,0 +1,40 @@
+.meu-div {
+	width: 500px;
+	height: 500px;
+}
+
+@media screen and (max-width: 420px) {
+	.meu-div {
+		background-color: rgb(75, 164, 247);
+	}
+}
+
+@media screen and (min-width: 421px) and (max-width: 768x) {
+	.meu-div {
+		background-color: orange;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.meu-div {
+		background-color: rgb(192, 46, 160);
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1080px) {
+	.meu-div {
+		background-color: rgb(192, 100, 46);
+	}
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1366px) {
+	.meu-div {
+		background-color: rgb(146, 46, 192);
+	}
+}
+
+@media screen and (min-width: 1367px) {
+	.meu-div {
+		background-color: rgb(224, 115, 25);
+	}
+}
