@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <html lang="pt-br"></html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Exercicios da Janela</title>
+        <script>
+            window.onload = function() {
+              var janela = document.getElementById("janela");
+              janela.addEventListener("mouseover", function() {
+                janela.src = "aberta.jpg";
+              });
+              janela.addEventListener("mouseout", function() {
+                janela.src = "fechada.jpg";
+              });
+              janela.addEventListener("click", function() {
+                janela.src = "quebrada.jpg";
+              });
+            }
+          </script>
+  </head>
+  <body>
+    <h1>Abra a Janela</h1>
+    <img id="janela" src="fechada.jpg" alt="Janela Fechada">
+  </body>
+</html>
