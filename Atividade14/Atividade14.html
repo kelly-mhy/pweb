@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><title>Formulario</title>
+	<script src="Atividade14.js"></script>
+</head>
+<body>
+	<form method = "post" name="pesquisa">
+		<label>Nome</label>
+		<input type="text" id="nome"><br>
+		<label>E-mail</label>
+		<input type="email" id="email"><br>
+		<label>Comentário</label>
+		<textarea id="comentario"></textarea><br>
+		<p>Pesquisa:</p>
+		<label>Primeira vez nesta página?</label>
+		<input type="radio" name="visita" id="sim" value="s" checked><label>Sim</label>
+		<input type="radio" name="visita" id="nao" value="n"><label>Não</label><br>
+		<input type="submit" onclick="validar();" name="submit" value="Enviar">
+		<input type="reset" name="limpar" value="Limpar">
+	</form>
+</html>
